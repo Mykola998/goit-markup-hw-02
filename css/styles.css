@@ -2,10 +2,11 @@
   --primaru-text-collor: #212121;
   --titel-text-collor: #ffffff;
   --accent-collor: #2196f3;
-  --contakt-color: #757575;
+  --contact-color: #757575;
   --overlay-collor: #2f303a;
   --dutton-color: #f5f4fa;
   --background-collorr: #f5f5f5;
+  --contacts-collor: #FFFFFF99;
 }
 
 body {
@@ -53,7 +54,7 @@ body {
 .header-contacts-list {
 }
 .contact {
-  color: var(--contakt-color);
+  color: var(--contact-color);
   list-style: none;
   font-weight: 500;
   font-size: 14px;
@@ -111,7 +112,7 @@ body {
   line-height: 1.714;
   /* or 171% */
   letter-spacing: 0.03em;
-  color: var(--contakt-color);
+  color: var(--contact-color);
 }
 /* -------------- setion-features ---------------- */
 .section-features {
@@ -120,7 +121,7 @@ body {
 .features-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.666;
+  line-height: 1.166;
   letter-spacing: 0.03em;
   color: var(--primaru-text-collor);
 }
@@ -134,7 +135,7 @@ body {
   color: var(--primaru-text-collor);
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.666;
+  line-height: 1.166;
   letter-spacing: 0.03em;
 }
 .team-items {
@@ -142,22 +143,22 @@ body {
 .item {
 }
 .team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.187;
-  /* identical to box height */
-  text-align: center;
-  letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
   color: var(--primaru-text-collor);
 }
 .team-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.187;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--contakt-color);
+  color: var(--contact-color);
 }
 /* ----------footer------------ */
 .footer a {
@@ -186,6 +187,7 @@ body {
 .footer-list {
 }
 .address {
+  font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
@@ -200,6 +202,11 @@ body {
     line-height: 24px;
     /* or 171% */
     letter-spacing: 0.03em;
+    color:var(--contacts-collor)
+}
+.footer .contact:hover,
+.footer .contact:focus {
+  color: var(--accent-collor);
 }
 /* ------------------------------------------ */
 /* -------portfolio.html--------------------- */
@@ -250,5 +257,5 @@ body {
   line-height: 1.875;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
-  color: var(--contakt-color);
+  color: var(--contact-color);
 }
